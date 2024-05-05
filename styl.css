@@ -1,0 +1,243 @@
+body, html {
+    margin: 0px;
+    padding: 0; 
+}
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    display: flex;
+    height: 1cm;
+    width: 100%;
+    text-align: center;
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 13px 10px;
+    text-decoration: none;
+}
+.navbar .list_page {
+    margin-top: 10px;
+}
+.navbar a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.text{
+    width:150px; 
+    height:  30px; 
+    margin-top: -6px;
+    background-color: none;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 20px;
+}
+.Home {
+    background-image: url(pexels-bella-white-201200-635284.jpg);
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 600px;
+    padding-bottom: 200px;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center top 5px;
+    animation: changeBackgroundColor 25s infinite; 
+}
+.picture {
+    background-image: url("Untitled39_20240312151237-removebg-preview.png");
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 999;
+    max-width: 100%;
+    margin-left: 35%;
+    margin-top: 100px;
+}
+.text1 {
+    margin-top: 350px;
+    font-size: 60px;
+    margin-left: 50px;
+    width: 1000px;
+}
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Màu nền */
+    color: white; /* Màu chữ */
+    text-decoration: none; /* Bỏ gạch chân cho liên kết */
+    font-size: 16px; /* Cỡ chữ */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo tròn góc */
+    cursor: pointer; /* Chuyển con trỏ thành bàn tay khi di chuột qua */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+  }
+  
+  /* Hover effect for download button */
+  .download-button:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua */
+  }
+.intro {
+    display: flex;
+    height: 10px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 300px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.blank {
+    height: 300px;
+}
+.text2 {
+    width: 600px;
+    font-size: 25px;
+    margin-left: -240px;
+    margin-top: -200px;
+    text-align: left;
+}
+.text3 {
+    font-size: 25px;
+    width: 50%;
+    text-align: right;
+    font-size: 20px;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.text4 {
+    text-align: right;
+    width: 20px;
+    margin-left: 90px;
+    font-size: 25px;
+    word-spacing: 2cm;
+}
+h {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text5 {
+    margin-right: -200px;
+    margin-top: -266px;
+    font-size: 25px;
+}
+.text6 {
+    font-size: 30px;
+    text-align: center;
+    margin-top:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skill1 {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 170px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.skill {
+    margin-top: -130px;
+}
+  .skill-bar {
+    width: 100%; 
+
+  }
+  
+  .skill-name {
+
+    margin-top: 10px;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .js-progress {
+    width: 90%; /* Phần trăm kĩ năng JavaScript */
+    background-color: #f44336;
+  }
+  
+  .html-progress {
+    width: 85%; /* Phần trăm kĩ năng HTML */
+    background-color: #4CAF50;
+  }
+  
+  .css-progress {
+    width: 80%; /* Phần trăm kĩ năng CSS */
+    background-color: #2196F3;
+  }
+  
+  .ps-progress {
+    width: 75%; /* Phần trăm kĩ năng Photoshop */
+    background-color: #FF9800;
+  }
+.text7 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+}  
+.education {
+        display: flex;
+        height: 10px;
+        margin-top: 50px;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 30px;
+        padding: 130px;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.green-square {
+    margin-top: -130px;
+    width: 300px;
+    height: 270px; 
+    background-color: #259725; 
+    margin-left: -140px;
+  }
+.educate {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial;
+    font-size: 30px;
+}
+.year {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.yellowsquare {
+    background-color: rgb(255, 255, 255);
+    width: 1435px;
+    height: 270px;
+    margin-top: -130px;
+    margin-right: -160px;
+}
+.school {
+    text-align: left;
+    margin-top: 50px;
+    font-family: Arial;
+    font-size: 30px;
+    margin-left:50px;
+}
+.education1 {
+    display: flex;
+    height: 10px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    padding: 130px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

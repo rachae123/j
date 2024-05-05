@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.8">
+<title> Contact </title>
+<link rel="stylesheet" type="text/css" href="sty.css">
+</head>
+<body>
+    <div class="Home">
+        <div class="navbar">
+            <a><div class="text"> R A C H A E L</div>
+            </a>
+            <div class="list_page">
+                <a href="Homepage.html" target="_blank"> Home </a> 
+                <a href="Aboutme.html" target="_blank"> About Me </a>
+                <a href="Resume.html" target="_blank"> Resume </a>
+                <a href="Contact.html" target="_blank"> Contact </a>
+            </div> 
+        </div>
+    </div>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>CONTACT ME</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="f5c497b1-e361-4b2a-bbba-63bcb37063bc">
+            <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="arrow_icon.png" alt="logo"></button>
+        </form>
+    </div>
+</body>
+</html>
